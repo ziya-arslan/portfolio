@@ -15,8 +15,8 @@ import {
 const TechStack = () => {
   return (
     <div className="mt-10">
-      <h3>Tech Stack</h3>
-      <div className="grid grid-cols-4 mt-4 gap-2">
+      <h3 className="font-bold">Tech Stack</h3>
+      <div className="grid grid-cols-3 mt-4 gap-2 sm:grid-cols-4">
         <div className="flex align-middle gap-1">
           <IconBrandJavascript />
           <p className="dark:text-gray-700">JavaScript</p>

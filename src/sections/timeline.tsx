@@ -3,7 +3,8 @@ import React from "react";
 const Timeline = () => {
   return (
     <section className="mt-8">
-      <ol className="border-l border-neutral-300 dark:border-neutral-500">
+      <h3 className="font-bold">Experience</h3>
+      <ol className="border-l border-neutral-300 dark:border-neutral-500 mt-4">
         <li>
           <div className="flex-start flex items-center pt-3">
             <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>

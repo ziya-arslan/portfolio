@@ -3,6 +3,9 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
+import { Bebas_Neue } from "next/font/google";
+
+const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] });
 
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -60,7 +63,7 @@ const Header = () => {
 
   return (
     <header className="h-16 flex items-center justify-between">
-      <h3 className="text-xl">Ziya.dev</h3>
+      <h3 className={`text-2xl ${bebas.className}`}>Ziya.dev</h3>
       <div className="flex gap-2 items-center">
         <Link
           href={"https://github.com/ziya-arslan"}

@@ -1,11 +1,14 @@
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import { Hero, TechStack, Timeline } from "@sections";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  weight: ["400", "500", "600", "900"],
+  subsets: ["latin"],
+});
 
 export default function Home() {
   return (
-    <div>
+    <div className={poppins.className}>
       <Hero />
       <TechStack />
       <Timeline />
