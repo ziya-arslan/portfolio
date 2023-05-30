@@ -10,6 +10,7 @@ import {
   IconBrandSvelte,
   IconBrandThreejs,
   IconBrandTypescript,
+  IconBrandAngular,
 } from "@tabler/icons-react";
 
 const TechStack = () => {
@@ -35,6 +36,10 @@ const TechStack = () => {
           <p className="dark:text-gray-700">React</p>
         </div>
         <div className="flex align-middle gap-1">
+          <IconBrandAngular />
+          <p className="dark:text-gray-700">Angular</p>
+        </div>
+        <div className="flex align-middle gap-1">
           <IconBrandDocker />
           <p className="dark:text-gray-700">Docker</p>
         </div>
@@ -45,11 +50,6 @@ const TechStack = () => {
         <div className="flex align-middle gap-1">
           <IconBrandCss3 />
           <p className="dark:text-gray-700">CSS</p>
-        </div>
-
-        <div className="flex align-middle gap-1">
-          <IconBrandSvelte />
-          <p className="dark:text-gray-700">Svelte</p>
         </div>
         <div className="flex align-middle gap-1">
           <IconBrandThreejs />
