@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
 import { Bebas_Neue } from "next/font/google";
+import { Switch } from "@components";
 
 const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] });
 
@@ -79,7 +80,8 @@ const Header = () => {
         >
           <IconBrandLinkedin width={32} height={32} />
         </Link>
-        {toggleTheme()}
+        {/* {toggleTheme()} */}
+        <Switch />
       </div>
     </header>
   );

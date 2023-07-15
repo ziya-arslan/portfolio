@@ -36,10 +36,6 @@ const TechStack = () => {
           <p className="dark:text-gray-700">React</p>
         </div>
         <div className="flex align-middle gap-1">
-          <IconBrandAngular />
-          <p className="dark:text-gray-700">Angular</p>
-        </div>
-        <div className="flex align-middle gap-1">
           <IconBrandDocker />
           <p className="dark:text-gray-700">Docker</p>
         </div>

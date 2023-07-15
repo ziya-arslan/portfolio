@@ -17,9 +17,11 @@ const Hero = () => {
       <div className="w-full flex justify-center">
         <Link
           href="mailto:arslanziya@hotmail.com"
-          className="p-2 font-semibold rounded-md hover:ring-2 hover:ring-gray-300 bg-red-700 text-white px-6"
+          className="text-[17px] font-bold border-none rounded-[0.75em] bg-black group"
         >
-          Contact Me!
+          <span className="block box-border border-2 border-solid border-black rounded-[0.75em] py-[0.75em] px-[1.5em] bg-[#e8e8e8] text-black translate-y-[-0.2em] transition-transform duration-100 ease-in group-hover:translate-y-[-0.33em] group-active:translate-y-0">
+            Contact Me!
+          </span>
         </Link>
       </div>
     </section>
