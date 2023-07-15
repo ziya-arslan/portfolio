@@ -10,12 +10,7 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    extend: {
-      boxShadow: {
-        "3xl": "4px 4px #323232",
-        slider: "0 3px 0 #323232",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
